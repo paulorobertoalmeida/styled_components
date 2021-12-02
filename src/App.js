@@ -47,6 +47,7 @@ const theme = {
 
 function App() {
   return (
+    <container>
     <Wrapper>
       <Title>this is the app to test Styled Components</Title>
       <h1>Hello Moto</h1>
@@ -55,11 +56,10 @@ function App() {
       <ThemeProvider theme={theme}>
       <Button>Themed</Button>
     </ThemeProvider>
-    <ButtonOne>hello</ButtonOne>
-
-      
+     
     </Wrapper>
-      
+    <ButtonOne>hello</ButtonOne>
+  </container>
   );
 }
 
