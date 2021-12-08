@@ -45,6 +45,16 @@ const theme = {
   main: "mediumseagreen"
 };
 
+const Title2 = styled.h3`
+font-size: 30px;
+color: orange;
+
+a {
+  color: inherit;
+  text
+}
+`;
+
 function App() {
   return (
     <container>
@@ -59,6 +69,7 @@ function App() {
      
     </Wrapper>
     <ButtonOne>hello</ButtonOne>
+    <Title2>Hello Guys</Title2>
   </container>
   );
 }
